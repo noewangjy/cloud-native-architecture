@@ -1,4 +1,4 @@
-# Lab - Wordpress
+# 第七章 Wordpress实践
 
 我们选择在之前搭建的K8S集群上完成Wordpress实验。
 
