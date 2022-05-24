@@ -73,15 +73,15 @@ nodes:
 
 ## 目录
 
-- [1. Config](1_config/README.md)
-- [2. Node & Cluster](2_cluster-node/README.md)
-- [3. Label & Annotation](3_label_annotation/README.md)
-- [4. Namespace](4_namespace/README.md)  
-- [5. Pod](5_pod/README.md)
-- [6. Workload](6_workload/README.md)
-- [7. Service](7_service/README.md)
-- [8. Storage](8_storage/README.md)
-- [9. Network](9_network/README.md)
+- [1. Config](1_config)
+- [2. Node & Cluster](2_cluster-node)
+- [3. Label & Annotation](3_label_annotation)
+- [4. Namespace](4_namespace)  
+- [5. Pod](5_pod)
+- [6. Workload](6_workload)
+- [7. Service](7_service)
+- [8. Storage](8_storage)
+- [9. Network](9_network)
 
 
 ## Tips

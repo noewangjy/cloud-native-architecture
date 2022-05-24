@@ -13,15 +13,15 @@
 本仓库主要分为两部分：
 
 #### 第一部分 容器技术
-- [1. docker容器](1_container/README.md)
+- [1. docker容器](1_container)
 
 #### 第二部分 高可用的K8S集群
-- [2. 安装K8S工具](2_k8s_installation/README.md)
-- [3. K8S对象](3_k8s_objects/README.md)
-- [4. K8S组件](4_k8s_components/README.md)
-- [5. Helm工具介绍](5_Helm/README.md)
-- [6. K8S运算器*(未要求)](6_k8s_operator/README.md)
-- [7. K8S实践](7_k8s_lab/README.md)
+- [2. 安装K8S工具](2_k8s_installation)
+- [3. K8S对象](3_k8s_objects)
+- [4. K8S组件](4_k8s_components)
+- [5. Helm工具介绍](5_Helm)
+- [6. K8S运算器*(未要求)](6_k8s_operator)
+- [7. K8S实践](7_k8s_lab)
 
 
 

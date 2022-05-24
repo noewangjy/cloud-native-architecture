@@ -5,13 +5,13 @@
 
 在本部分，我们使用Minikube来创建单节点的K8S集群。由于我们将使用多节点K8S集群进行后续实验，本部分我们仅介绍如何安装Minikube。我们在一个Ubuntu 20.04 LTS系统的虚拟机上安装Minikube。
 
-更多细节：[1. Minikube](1_minikube/README.md)
+更多细节：[1. Minikube](1_minikube)
 
 ## 2. 创建多节点K8S集群
 
 本章节记录了一个有3个节点的K8S集群的配置过程
 
-更多细节：[2. Kubeadm](2_kubeadm/README.md)
+更多细节：[2. Kubeadm](2_kubeadm)
 
 我们假设有三台互相连接的节点，这些节点在一个交换机域下。
 
