@@ -1,5 +1,4 @@
 
-
 ## 3. Label & Annotation
 
 Labels are key-value pairs that are used to group together sets of objects, very often pods.
