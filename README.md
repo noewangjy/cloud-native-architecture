@@ -46,7 +46,7 @@
 
 本仓库作者为[Steve Wang](mailto:steve_wang@sjtu.edu.cn)，其中所有Terminal截图均为原创， 所有实验由本人在本地平台上操作完成。
 
-本Repo中的文字教程<u>**非**本人原创</u>，教程和参考资料如下：
+本仓库中的文字教程<u>**非**本人原创</u>，教程和参考资料如下：
 - [GitHub - rebirthmonkey/k8s](https://github.com/rebirthmonkey/k8s)
 - [GitHub - davidliyutong/ICE6413P-260-M01](https://github.com/davidliyutong/ICE6413P-260-M01)
 - [K8S Docs (ice6413p.space)](https://docs.ice6413p.space/)
