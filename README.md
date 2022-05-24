@@ -54,8 +54,7 @@
 - [GitHub - SteveWANG-sjtu/hubernetes-handbook](https://github.com/SteveWANG-sjtu/kubernetes-handbook)
 
 
-由于[实验要求及实验源代码](https://github.com/rebirthmonkey/k8s) 相同，学生的实验结果应该非常相似，
-课程作业的重点应该在于<u>学生是否**独自完成**实验并达到预期效果</u>，因此同学之间的交流和参考不应被认为是抄袭。
+由于[实验要求及实验源代码](https://github.com/rebirthmonkey/k8s) 相同，学生的实验结果应该非常相似，课程作业的重点应该在于<u>学生是否**独自完成**实验并达到预期效果</u>，因此同学之间的交流和参考不应被认为是抄袭。
 
 ## 4. 致谢
 
