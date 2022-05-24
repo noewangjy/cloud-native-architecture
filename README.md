@@ -1,7 +1,6 @@
 # 云原生架构
 
-对于**PDF读者**，为获得更好的阅读体验，
-请访问本人的[GitHub Repo](https://github.com/SteveWANG-sjtu/cloud-native-architecture) 
+对于**PDF读者**，为获得更好的阅读体验，请访问本人的[GitHub Repo](https://github.com/SteveWANG-sjtu/cloud-native-architecture) 
 
 本仓库是上海交通大学ICE6413P-云原生架构课程（2022年春）的学习笔记和课程报告。
 
