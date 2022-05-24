@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cm1-pod4-vol
+spec:
+  volumes:
+    - name: config-vol
+      configMap:
+        name: cm1
+
+  restartPolicy: Never
+  containers:
+    - name: ct-busybox
+      image: radial/busyboxplus:latest
+      imagePullPolicy: IfNotPresent
+      command: ["/bin/sh", "-c", "sleep 3000"]
+      volumeMounts:
+      - name: config-vol
+        mountPath: /etc/config

@@ -1,0 +1,9 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: service5-endpoints
+spec:
+  ports:
+  - protocol: TCP
+    targetPort: 30888
+    port: 80

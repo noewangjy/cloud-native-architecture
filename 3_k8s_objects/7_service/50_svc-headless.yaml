@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-headless
+spec:
+  selector: # match spec.template.metadata
+    k8s-app: headless-nginx 
+  ports:
+  - port: 80
+  clusterIP: None
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: svc-headless
+spec:
+  replicas: 2
+  selector:
+    matchLabels: # match spec.template.metadata
+      k8s-app: headless-nginx
+  template:
+    metadata:
+      labels:
+        k8s-app: headless-nginx # match spec.selector.matchLabels
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        imagePullPolicy: IfNotPresent
+        ports: 
+        - containerPort: 80
+        resources:
+          limits:
+            memory: "200Mi"
+            cpu: "500m"

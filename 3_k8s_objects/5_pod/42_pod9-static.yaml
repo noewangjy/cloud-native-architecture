@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod9-static
+  labels:
+    role: myrole
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      imagePullPolicy: IfNotPresent
+      ports:
+        - name: web
+          containerPort: 80
+          protocol: TCP

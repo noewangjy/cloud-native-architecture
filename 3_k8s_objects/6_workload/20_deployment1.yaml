@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment1
+  labels:
+    label-dep: value-dep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      label-pod: value-pod
+  template:
+    metadata:
+      labels:
+        label-pod: value-pod
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.9.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80

@@ -1,0 +1,5 @@
+FROM ubuntu:focal
+
+ENV MSG=xxxxxxxx
+
+CMD ["/bin/bash", "-c", "echo $MSG"]

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cm1-pod2-env
+spec:
+  restartPolicy: Never
+  containers:
+    - name: ct-busybox
+      image: radial/busyboxplus:latest
+      imagePullPolicy: IfNotPresent
+      command: ["/bin/sh", "-c", "env && sleep 1000000"]
+      envFrom:
+        - configMapRef:
+            name: cm1
